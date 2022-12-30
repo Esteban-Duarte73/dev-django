@@ -27,7 +27,7 @@ TTEST2 = 1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["gjango.dimensity.co", "localhost"]
 
 
 # Application definition
