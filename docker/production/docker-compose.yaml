@@ -18,7 +18,7 @@ services:
     networks:
       django:
         aliases:
-          - ${POSTGRES_HOST}
+          - ${NGINX_HOST}
 
   django-prod:
     container_name: django-prod
