@@ -18,3 +18,6 @@ start-production:
 
 stop-production:
 	cd docker/production/ && docker-compose stop
+
+build-production:
+	cd docker/production/ && docker-compose build
